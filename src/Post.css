@@ -24,3 +24,7 @@
 .post__body {
   overflow-wrap: anywhere;
 }
+
+.post__buttons {
+  display: flex;
+}
