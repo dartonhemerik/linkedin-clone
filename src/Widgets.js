@@ -15,7 +15,6 @@ function Widgets() {
       </div>
     </div>
   );
-  //fix
 
   return (
     <div className='widgets'>

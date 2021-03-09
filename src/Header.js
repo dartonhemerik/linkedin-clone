@@ -21,7 +21,6 @@ function Header() {
   };
 
   return (
-    //fix
     <div className='header'>
       <div className='header__left'>
         <img

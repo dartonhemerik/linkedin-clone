@@ -15,7 +15,6 @@ function Sidebar() {
   );
 
   return (
-    //fix
     <div className='sidebar'>
       <div className='sidebar__top'>
         <img

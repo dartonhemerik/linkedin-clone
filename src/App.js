@@ -12,7 +12,6 @@ import Widgets from './Widgets';
 function App() {
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
-  //fix
 
   useEffect(() => {
     auth.onAuthStateChanged(userAuth => {
