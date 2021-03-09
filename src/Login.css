@@ -31,6 +31,10 @@
   border-radius: 5px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .login__register {
   cursor: pointer;
   color: #0074b1;
