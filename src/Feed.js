@@ -17,6 +17,7 @@ function Feed() {
   const user = useSelector(selectUser);
   const [input, setInput] = useState('');
   const [posts, setPosts] = useState([]);
+  //fix
 
   useEffect(() => {
     db.collection('posts')

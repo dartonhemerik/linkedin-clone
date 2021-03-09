@@ -11,6 +11,7 @@ import {
 
 const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
   return (
+    //fix
     <div ref={ref} className='post'>
       <div className='post__header'>
         <Avatar src={photoUrl}>{name[0].toUpperCase()}</Avatar>
